@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Converter App</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <br><br>
+            <h1 style="text-align: center;">Media Converter</h1>
+            <div class="form-group">
+                <label for="format">Select Format:</label>
+                <select class="form-control" id="format">
+                  <option>mp3</option>
+                  <option>flv</option>
+                  <option>avi</option>
+                  <option>mp4</option>
+                </select>
+            </div>
+            <br>
+            <button class="btn btn-block btn-danger" id="upload">Select File & Convert</button>
+            <br><br>
+            <div id="info"></div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="renderer.js"></script>
+</html>

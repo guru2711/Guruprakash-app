@@ -1,0 +1,26 @@
+{
+  "name": "VideoConverterApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-package": "^0.1.0",
+    "ffmpeg-static-electron": "^2.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery": "^3.5.1",
+    "random-string": "^0.2.0"
+  },
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
+  }
+}
