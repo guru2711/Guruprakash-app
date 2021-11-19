@@ -1,5 +1,6 @@
 # Guruprakash-app
 
+This is extracted electron package files
 
 ---------------------------------------
 use these to experience the application 
