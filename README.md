@@ -1,6 +1,6 @@
 # Guruprakash-app
 
-videoconverterapp.exe is missing 
+
 ---------------------------------------
 use these to experience the application 
 https://github.com/guru2711/guruprakash-electron_app
